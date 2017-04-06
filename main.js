@@ -48,16 +48,17 @@ function runMath(num1, num2, num3, num4, nun5) {
 	});
 
 
-		//animated ticker
-				$('.count').each(function () {
-				    $(this).prop('Counter',0).animate({
-				        Counter: $(this).text()
-				    }, {
-				        duration: 4000,
-				        easing: 'swing',
-				        step: function (now) {
-				            $(this).text(Math.ceil(now));
-				        }
-				    });
-				});
+	//animated ticker
+	$('.count').each(function () {
+		$(this).addClass("active");
+		$(this).prop('Counter', 0).animate({
+			Counter: $(this).text()
+		}, {
+			duration: 4000,
+			easing: 'swing',
+			step: function (now) {
+				$(this).text(Math.ceil(now));
+			}
+		});
+	});
 }
