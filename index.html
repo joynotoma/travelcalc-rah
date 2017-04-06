@@ -28,13 +28,18 @@
 
 
         <h1>Traveling Abroad May Not Be As Out of Reach As You Think</h1>
+        <h2> Story by Joy Notoma, Elizabeth Ramanand and Rahima Nasa </h2>
 
-        <img src="images/worldmap.gif" id="header-pic" /> <i> Traveling may not be as out of reach as you think. Graphic by Rahima Nasa </i>
 
-        <h2> Story by Joy Notoma, Elizabeth Ramanand and Rahima Nasa </h2> Use this calculator to see far your money will in countries around the globe.
+
+        <figure>
+            <img src="images/worldmap.gif" id="header-pic" />
+            <figcaption> Go anywhere in the world with the money you already spend in a month. <i> Graphic by Rahima Nasa </i> </figcaption>
+        </figure>
+
 
         <div id="calculator">
-            <h3>How Long Can You Travel On Your Monthly Budget? </h3> Rent: <input type="number" id="number1" />
+            <h3>How much do you spend on these each month? </h3> Rent: <input type="number" id="number1" />
             <br/> Groceries/food: <input type="number" id="number2" />
             <br/> Transportation: <input type="number" id="number3" />
             <br/> Entertainment: <input type="number" id="number4" />
@@ -42,10 +47,10 @@
             <p> <button id="mathIt"> Calculate! </button> </p>
         </div>
 
-
+        <h3>Now, find out how many days you can spend in each country below: </h3>
 
         <div class="grid">
-            <div class="square mexico"> <img src="flags/mexico.png" class="icon" /> <span class="count">0</span> Mexico </div>
+
 
             <div class="square australia"> <img src="flags/australia.png" class="icon" /> <span class="count">0</span> Australia </div>
             <div class="square brazil"> <img src="flags/brazil.png" class="icon" /> <span class="count">0</span> Brazil </div>
@@ -59,7 +64,7 @@
             <div class="square japan"> <img src="flags/japan.png" class="icon" /> <span class="count">0</span> Japan </div>
 
             <div class="square kenya"> <img src="flags/kenya.png" class="icon" /> <span class="count">0</span> Kenya </div>
-
+            <div class="square mexico"> <img src="flags/mexico.png" class="icon" /> <span class="count">0</span> Mexico </div>
             <div class="square senegal"> <img src="flags/senegal.png" class="icon" /> <span class="count">0</span> Senegal </div>
 
             <div class="square southafrica"> <img src="flags/southafrica.png" class="icon" /> <span class="count">0</span> South Africa </div>
@@ -90,12 +95,20 @@
 
         </div>
 
-
-
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 
         <!-- Your javascript should be called here -->
         <script src="main.js"></script>
+
+        <div class="main-text">
+
+
+            <p> These calculations are based on the average cost of living in each of these countries, according to crowdsourced data compiled by <a href="https://www.numbeo.com/cost-of-living/">Numbeo</a>, and converted to USD. We calculated the time you
+                can spend in these countries to include three inexpensive meals per day, a one bedroom apartment outside of city center, and a monthly transit pass. </p>
+
+        </div>
+
+
 
 
     </body>
