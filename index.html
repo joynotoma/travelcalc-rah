@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <!-- set the character set -->
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- first step to a responsive site -->
+        <title>Traveling Abroad May Not Be As Out of Reach As You Think</title>
+
+        <!-- Your styles should be called here -->
+        <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="styles.css">
+
+
+        <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+        <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        <!--[if lt IE 9]>
+      	  <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      	  <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+      	<![endif]-->
+    </head>
+
+    <body>
+        <!-- YOUR CONTENT GOES HERE -->
+
+
+
+        <h1>Traveling Abroad May Not Be As Out of Reach As You Think</h1>
+
+        <img src="images/worldmap.gif" id="header-pic" /> <i> Traveling may not be as out of reach as you think. Graphic by Rahima Nasa </i>
+
+        <h2> Story by Joy Notoma, Elizabeth Ramanand and Rahima Nasa </h2> Use this calculator to see far your money will in countries around the globe.
+
+        <div id="calculator">
+            <h3>How Long Can You Travel On Your Monthly Budget? </h3> Rent: <input type="number" id="number1" />
+            <br/> Groceries/food: <input type="number" id="number2" />
+            <br/> Transportation: <input type="number" id="number3" />
+            <br/> Entertainment: <input type="number" id="number4" />
+            <br/> Misc: <input type="number" id="number5" />
+            <p> <button id="mathIt"> Calculate! </button> </p>
+        </div>
+
+
+
+        <div class="grid">
+            <div class="square mexico"><span class="count"> <img src="flags/mexico.png" class="icon" />   </span></div>
+
+            <div class="square australia"> <span class="count"> <img src="flags/australia.png" class="icon" />   </span> </div>
+            <div class="square brazil"><span class="count"> <img src="flags/brazil.png" class="icon"/>   </span> </div>
+            <div class="square canada"><span class="count"> <img src="flags/canada.png" class="icon"/>   </span> </div>
+            <div class="square china"><span class="count"> <img src="flags/china.png" class="icon"/>   </span> </div>
+            <div class="square croatia"><span class="count"> <img src="flags/croatia.png" class="icon"/>   </span> </div>
+            <div class="square france"><span class="count"> <img src="flags/france.png" class="icon"/>   </span> </div>
+            <div class="square germany"><span class="count"> <img src="flags/germany.png" class="icon"/>   </span> </div>
+            <div class="square india"><span class="count"> <img src="flags/india.png" class="icon"/>   </span> </div>
+            <div class="square jamaica"><span class="count"> <img src="flags/jamaica.png" class="icon"/>   </span> </div>
+            <div class="square japan"><span class="count"> <img src="flags/japan.png" class="icon"/>   </span> </div>
+
+            <div class="square kenya"><span class="count"> <img src="flags/kenya.png" class="icon"/>   </span> </div>
+
+            <div class="square senegal"><span class="count"> <img src="flags/senegal.png" class="icon"/>   </span> </div>
+
+            <div class="square southafrica"><span class="count"> <img src="flags/southafrica.png" class="icon"/>   </span> </div>
+            <div class="square thailand"><span class="count"> <img src="flags/thailand.png" class="icon"/>   </span> </div>
+
+        </div>
+
+
+        <div class="results" id="final-results">
+            <ul>
+                <li data-perDayCost="10.50" data-country="india"> <span class="days"></span> days in India </li>
+
+                <li data-perDayCost="18.80" data-country="china"> <span class="days"></span> days in China </li>
+
+                <li data-perDayCost="19.56" data-country="mexico"> <span class="days"></span> days Mexico </li>
+                <li data-perDayCost="20.82" data-country="jamaica"> <span class="days"></span> days in Jamaica </li>
+                <li data-perDayCost="29.27" data-country="brazil"> <span class="days"></span> days in Brazil</li>
+                <li data-perDayCost="62.13" data-country="canada"> <span class="days"></span> days in Canada</li>
+                <li data-perDayCost="74.78" data-country="australia"> <span class="days"></span> days in Australia</li>
+                <li data-perDayCost="7.80" data-country="kenya"> <span class="days"></span> days in Kenya </li>
+                <li data-perDayCost="40.00" data-country="japan"> <span class="days"></span> days in Japan</li>
+                <li data-perDayCost="33.30" data-country="southafrica"> <span class="days"></span> days in South Africa</li>
+                <li data-perDayCost="33.1" data-country="senegal"> <span class="days"></span> days in Senegal</li>
+                <li data-perDayCost="49.37" data-country="germany"> <span class="days"></span> days in Germany</li>
+                <li data-perDayCost="56.9" data-country="france"> <span class="days"></span> days in France</li>
+                <li data-perDayCost="10.7" data-country="thailand"> <span class="days"></span> days in Thailand</li>
+                <li data-perDayCost="27.4" data-country="croatia"> <span class="days"></span> days in Croatia</li>
+
+        </div>
+
+
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+
+        <!-- Your javascript should be called here -->
+        <script src="main.js"></script>
+
+
+    </body>
+
+</html>
